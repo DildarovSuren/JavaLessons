@@ -13,7 +13,7 @@ public class Converter {
             // weightConverter.weight(value);
         } else if (converterMode == 2) {
             System.out.println("Выберите единицу измерения: 1 - метр, 2 - миля, 3 - ярд, 4 - фут");
-            int converterUnit = scanner.nextInt(); // еденица конвертации
+            int converterUnit = scanner.nextInt(); // единица конвертации
             System.out.println("Введите число");
             double valueUnit = scanner.nextDouble(); // значение еденицы преобразования
             lengthConverter.length(converterUnit, valueUnit);
